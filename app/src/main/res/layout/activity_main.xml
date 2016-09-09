@@ -18,6 +18,7 @@
             android:text="猜數字"
             />
         <EditText
+            android:id="@+id/write"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -53,6 +54,7 @@
             />
     </LinearLayout>
     <TextView
+        android:id="@+id/infoVew"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
