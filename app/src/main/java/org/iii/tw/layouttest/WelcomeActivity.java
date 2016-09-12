@@ -24,6 +24,6 @@ public class WelcomeActivity extends AppCompatActivity {
     private void gotoMain(){
         Intent it = new Intent(this, MainActivity.class);
         startActivity(it);
-        finish();
+        finish();              //這裡讓進到遊戲頁面按回上一頁直接跳入主畫面, 那頁面直接死亡
     }
 }

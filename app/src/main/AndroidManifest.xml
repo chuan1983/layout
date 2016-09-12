@@ -16,6 +16,7 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+                <!--LAUNCHER是控制頁面點下去可執行的-->
             </intent-filter>
         </activity>
     </application>
